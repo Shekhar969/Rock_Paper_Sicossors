@@ -48,13 +48,13 @@ buttons.forEach(function(button) {
 
             if(ComputerMove === "rock"){ 
             let computerSelectDiv =document.querySelector('.computermove')
-            computerSelectDiv.innerHTML = '<img src="/imgs/rock" alt="">' +"Computer Move";
+            computerSelectDiv.innerHTML = '<img src="imgs/rock" alt="">' +"Computer Move";
             }else if(ComputerMove === "paper"){ 
             let computerSelectDiv =document.querySelector('.computermove')
-            computerSelectDiv.innerHTML = '<img src="/imgs/paper" alt="">'+"Computer Move";
+            computerSelectDiv.innerHTML = '<img src="imgs/paper" alt="">'+"Computer Move";
             }else if(ComputerMove === "scissors"){ 
             let computerSelectDiv =document.querySelector('.computermove')
-            computerSelectDiv.innerHTML = '<img src="/imgs/scisoor" alt="">'+"Computer Move";
+            computerSelectDiv.innerHTML = '<img src="imgs/scisoor" alt="">'+"Computer Move";
             }
 
 
